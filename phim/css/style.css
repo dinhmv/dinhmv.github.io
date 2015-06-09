@@ -430,6 +430,9 @@ h1.title-movie {
   float: left;
   line-height: 30px;
 }
+.comment {
+  width: 40%;
+}
 #footer {
   height: 300px;
   background: #383838;
