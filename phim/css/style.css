@@ -240,7 +240,7 @@ ul.items .item:hover {
   background: #FFF;
   padding: 3px;
   color: #B00000;
-  border: 1px solid #FFDEDE;
+  box-shadow: 2px 1px 2px 0px #1B1B1B;
   border-left: none;
   top: 5px;
   left: 0;
