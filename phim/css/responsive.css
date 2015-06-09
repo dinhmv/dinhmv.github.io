@@ -6,6 +6,21 @@
     width: 49%;
     margin-right: 2%;
   }
+  
+}
+@media only screen and (max-width: 480px) {
+  .movie-detail .thumb>img {
+    display: none;
+  }
+  .movie-detail .movie-des {
+    width: 100%;
+  }
+  .section-relate {
+    width: 100%;
+  }
+  .comment {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 720px) {

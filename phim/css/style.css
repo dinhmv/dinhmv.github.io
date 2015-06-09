@@ -343,11 +343,16 @@ h1.title-movie {
   text-transform: uppercase;
   font-size: 155%;
   margin-bottom: 15px;
-  border-bottom: 1px solid #EBEDF3;
 }
 .movie-info {
   margin-bottom: 5px;
   padding: 5px 10px;
+  border-bottom: 1px solid #EBEDF3;
+}
+.movie-count {
+  border-bottom: 1px solid #EBEDF3;
+  height: 30px;
+  line-height: 30px;
 }
 .movie-info ul li {
   line-height: 24px;
@@ -409,16 +414,28 @@ h1.title-movie {
   margin: 15px auto;
   width: 200px;
   background: #DF2A00;
-  padding: 15px;
+  cursor: pointer;
+  border: 1px solid #DF2A00;
+}
+.button-view:hover {
+  border-color: #D02902;
 }
 .icon-play {
   background: url('../images/player.png') no-repeat;
   background-size: 30px 30px;
+  background-position: 15px;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
   height: 30px;
   width: 30px;
   line-height: 30px;
   display: inline-block;
   float: left;
+  padding: 15px;
+}
+.button-view:hover>.icon-play {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 .button-view a {
   padding-left: 15px;
@@ -429,6 +446,8 @@ h1.title-movie {
   display: inline-block;
   float: left;
   line-height: 30px;
+  padding: 15px;
+  border-left: 1px solid #D02902;
 }
 .comment {
   width: 39%;
