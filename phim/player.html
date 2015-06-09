@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Player</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700&subset=vietnamese" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="page" class="site">
+      <header id="header">
+        <div class="banner"></div>
+        <div id="navbar" class="navbar">
+          <nav id="site-navigation">
+            <ul class="navigation clr">
+              <li><a href="#" title="Trang chủ">Home</a></li>
+              <li><a href="#" title="">Mdivd Ke</a></li>
+              <li><a href="#" title="">Smit Mob</a></li> 
+              <li>
+                <a href="javascript:void(0);" title="Thể loại" class="view-more red">&bull;&bull;&bull;</a>
+                <div id="list-playlist" style="display:none;">
+                  <div id="form-search" class="clr">
+                    <form method="get" action="">
+                      <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm"/>
+                      <button type="submit">Tìm kiếm</button>
+                    </form>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div id="main" class="site-main">
+        <div id="primary" class="content-area">
+          <h1 class="title-movie block">Book is the gold</h1>
+          <!--
+          <script src="http://jwpsrv.com/library/M_8SjApWEeWCCw4AfQhyIQ.js"></script>
+          <script type='text/javascript'>
+            jwplayer('movie').setup({
+              file: 'http://www.w3schools.com/html/mov_bbb.mp4',
+              title: '',
+              width: '100%',
+              aspectratio: '16:9'
+            });
+          </script>
+          -->
+          <div id="movie" class="section player"></div>
+          <div class="content-detail">
+            <div class="part-movie">
+              <ul class="clr">
+                <li class="active"><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="clr">
+            <div class="section-relate left">
+              <div class="section">
+                <h2 class="tit">Liên quan</h2>
+                <div class="list-items">
+                  <ul class="items clr">
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/1.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Vivamus eu libero vel nulla laoreet</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/2.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Proin id luctus nibh</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/3.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Vivamus eu libero vel nulla laoreet</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/4.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Proin id luctus nibh</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/5.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Items 1</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="#" class="post-thumbnail"><img src="demo/6.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="#">Proin id luctus nibh</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/1.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Vivamus eu libero vel nulla laoreet</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/2.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Proin id luctus nibh</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/3.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Vivamus eu libero vel nulla laoreet</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/4.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Proin id luctus nibh</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="detail.html" class="post-thumbnail"><img src="demo/5.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="detail.html">Items 1</a></h3>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <a href="#" class="post-thumbnail"><img src="demo/6.jpg" alt=""/></a>
+                      <div class="entry-footer">
+                        <h3 class="entry-title"><a href="#">Proin id luctus nibh</a></h3>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="comment right">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+
+    </footer>
+  </body>
+</html>
