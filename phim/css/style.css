@@ -405,6 +405,31 @@ h1.title-movie {
 .section-relate {
   width: 60%;
 }
+.button-view {
+  margin: 15px auto;
+  width: 200px;
+  background: #DF2A00;
+  padding: 15px;
+}
+.icon-play {
+  background: url('../images/player.png') no-repeat;
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  display: inline-block;
+  float: left;
+}
+.button-view a {
+  padding-left: 15px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  line-height: 30px;
+}
 #footer {
   height: 300px;
   background: #383838;
