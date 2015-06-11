@@ -54,7 +54,7 @@
   }
 }
 @media only screen and (max-width: 960px) {
-  .section {
+  .section ul.items {
     padding: 0 5px;
   }
 }
